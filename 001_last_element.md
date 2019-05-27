@@ -1,7 +1,8 @@
-**Write a function that returns the last element of a list.**
+## Write a function that returns the last element of a list.**
+
+**JavaScript**
 
 ```javascript
-// JavaScript
 > const lastElement = (elements) => {
 	if (elements === undefined) {
 		return null;
@@ -22,8 +23,9 @@ null
 undefined
 ```
 
+**Java**
+
 ```java
-// Java
 class Main {
   public static int lastElement(int[] intArray) {
     int result = 0;
@@ -39,8 +41,36 @@ class Main {
 }
 ```
 
+**Python**
+
+```python
+def lastElement(elements):
+    if isinstance(elements, type(elements)) and len(elements) == 0:
+	return 0
+    else:
+	return elements[len(elements) - 1]
+```
+
+**OCaml**
+
+```ocaml
+# let rec last = function
+    | [] -> None
+    | [x] -> Some x
+    | _ :: t -> last t;;      
+val last : 'a list -> 'a option = <fun>
+
+# last([]);;
+- : 'a option = None
+# last([1]);;
+- : int option = Some 1
+# last([1; 2; 3]);;
+- : int option = Some 3
+```
+
+**Scala**
+
 ```scala
-// Scala
 @ def lastElement(elements: List[Int]): Int = elements.last 
 defined function lastElement
 @ lastElement(List(1, 2, 3, 4, 5))
@@ -61,20 +91,4 @@ Any = 3
 
 @ lastElement(List(1)) 
 Any = Some(1)
-```
-
-// OCaml
-```ocaml
-# let rec last = function
-    | [] -> None
-    | [x] -> Some x
-    | _ :: t -> last t;;      
-val last : 'a list -> 'a option = <fun>
-
-# last([]);;
-- : 'a option = None
-# last([1]);;
-- : int option = Some 1
-# last([1; 2; 3]);;
-- : int option = Some 3
 ```
