@@ -25,6 +25,21 @@
 23. Extract a given number of randomly selected elements from a list
 24. Lotto: Draw N different random numbers from the set 1...M
 25. Generate a random permutation of the elements of a list
+26. Generate the combination of K distinct objects chosen from the N elements of a list
+27. Group the elements of a set into disjoint subsets
+28. Sorting a list of lists according to length of sublists
+29. Determine whether a given integer number is prime
+30. Determine the greatest common divisor of two positive integer numbers
+31. Determine whether two positive integer numbers are coprime
+32. Calculate Euler's totient function phi(m)
+33. Determine the prime factors of a given positive integer
+34. Determine the prime factors and their multiplicity of a given positive integer
+35. Calculate Euler's totient function, phi(m) = (p1 - 1) * p1**(m1 - 1) * (p2 - 1) * p2**(m2 - 1) * (p3 - 1) * p3**(m3 - 1) * ...
+36. Given a range of integers by its lower and upper limit, construct a list of all prime numbers in that range
+37. Goldbach's conjecture - find the two prime numbers that sum up to a given even integer.
+38. Given a range of integers by its lower and upper limit, print a list of all even numbers and their Goldbach composition.
+...
+...
 
 ### Links
 - [99 problems](http://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/)
